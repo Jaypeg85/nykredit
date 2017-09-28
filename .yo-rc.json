@@ -1,0 +1,32 @@
+{
+  "generator-fountain-angular2": {
+    "version": "1.0.0",
+    "props": {
+      "framework": "angular2",
+      "modules": "webpack",
+      "js": "typescript",
+      "ci": "travis",
+      "css": "less",
+      "resolved": "/usr/local/lib/node_modules/generator-fountain-webapp/node_modules/generator-fountain-angular2/generators/app/index.js",
+      "namespace": "fountain-angular2:app",
+      "_": [],
+      "sample": "techs",
+      "router": "uirouter"
+    }
+  },
+  "generator-fountain-angular1": {
+    "version": "1.0.0",
+    "props": {
+      "framework": "angular1",
+      "modules": "webpack",
+      "js": "js",
+      "ci": "",
+      "css": "less",
+      "resolved": "/usr/local/lib/node_modules/generator-fountain-webapp/node_modules/generator-fountain-angular1/generators/app/index.js",
+      "namespace": "fountain-angular1:app",
+      "_": [],
+      "sample": "hello",
+      "router": "uirouter"
+    }
+  }
+}

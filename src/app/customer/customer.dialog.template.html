@@ -1,0 +1,40 @@
+<md-dialog>
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>{{$ctrl.title}}</h2>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content layout-padding>
+	    <md-content layout-padding layout="column">
+        <div layout="row">
+          <md-input-container>
+  	        <label>First name</label>
+  	        <input ng-model="$ctrl.firstName">
+  	      </md-input-container>
+
+  	      <md-input-container>
+  	        <label>Last Name</label>
+  	        <input ng-model="$ctrl.lastName">
+  	      </md-input-container>
+        </div>
+        <div>
+          <md-input-container class="md-block">
+            <label>CPR/CVR</label>
+            <input ng-model="$ctrl.cprCvr">
+          </md-input-container>
+        </div>
+		  </md-content>
+    </md-dialog-content>
+
+    <md-dialog-actions layout="row">
+      <md-button ng-click="$ctrl.cancel()">
+       Cancel
+      </md-button>
+      <md-button class="md-raised md-primary" ng-click="$ctrl.save()">
+       Save
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>
